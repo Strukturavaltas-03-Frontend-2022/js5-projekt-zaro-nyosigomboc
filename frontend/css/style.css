@@ -1,0 +1,60 @@
+* {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: beige;
+}
+
+.user__add--container {
+  width: 70%;
+}
+
+.user__add--container input {
+  width: 100%;
+}
+
+.user__table {
+  width: 100%;
+}
+
+.user__table input {
+  width: 100%;
+}
+
+.validated-passed {
+  border-color: green;
+  border: 1px solid;
+  background-color: lightgreen;
+}
+
+.validated-failed {
+  border-color: red;
+  border: 1px solid;
+  background-color: pink;
+}
+
+.messages {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.error {
+  background-color: red;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.hidden {
+  display: none;
+}

@@ -76,5 +76,17 @@ class DB {
   getData() {
     return this.data;
   }
+
+  getOneData(id) {
+    return this.data[id];
+  }
+
+  selectDataOrderByID() {
+    return Object.values(this.data);
+  }
+
+  selectDataOrderByIDDesc() {
+    return Object.values(this.data).reverse();
+  }
 }
 export default DB;

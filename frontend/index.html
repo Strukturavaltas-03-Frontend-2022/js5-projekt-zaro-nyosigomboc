@@ -6,9 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRUD project</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 </head>
 <body>
+  <h1>CRUD project</h1>
+  <h3>User admin page</h3>
   <div class="messages"></div>
+  <section class="user__add--container">
+    New user:
+    <div>Name: <input name="name" class="validate-name"></div>
+    <div>E-mail: <input name="emailAddress" class="validate-email"></div>
+    <div>Address: <input name="address" class="validate-address"></div>
+    <button id="button__add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+  </section>
+  <main class="user__table--container">
+    <table class="user__table">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>emailAddress</th>
+          <th>address</th>
+          <th>buttons</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </main>
+
   <script type="module" src="./js/main.js"></script>
 </body>
 </html>
